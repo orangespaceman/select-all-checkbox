@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Select-all checkbox</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <form method="get" action="" name="testform" id="testform">
+            <fieldset>
+                <legend>Select all checkbox form</legend>
+
+                <div class="inputcontainer clearfix">
+                    <label for="checkboxall">Select all?</label>
+                    <input type="checkbox" name="checkboxall" id="checkboxall" />
+                </div>
+
+                <div id="childboxes">
+                    <div class="inputcontainer clearfix">
+                        <label for="textfield1">Option 1:</label>
+                        <input type="checkbox" name="checkbox" id="checkbox1" />
+                    </div>
+                    <div class="inputcontainer clearfix">
+                        <label for="textfield2">Option 2:</label>
+                        <input type="checkbox" name="checkbox" id="checkbox2" />
+                    </div>
+                    <div class="inputcontainer clearfix">
+                        <label for="textfield3">Option 3:</label>
+                        <input type="checkbox" name="checkbox" id="checkbox3" />
+                    </div>
+                    <div class="inputcontainer clearfix">
+                        <label for="textfield4">Option 4:</label>
+                        <input type="checkbox" name="checkbox" id="checkbox4" />
+                    </div>
+                    <div class="inputcontainer clearfix">
+                        <label for="textfield5">Option 5:</label>
+                        <input type="checkbox" name="checkbox" id="checkbox5" />
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <script src="script.js"></script>
+        <script>
+            // initialise the 'select all' checkbox
+            formUtil.toggleCheckboxes('checkboxall', 'childboxes');
+        </script>
+        <script src="http://thegingerbloke.github.io/lab-badge/lab-badge.min.js"></script>
+    </body>
+</html>
