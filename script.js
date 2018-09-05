@@ -1,6 +1,5 @@
 /**
  * form utilities
- * @author pete goodman
  *
  */
 var formUtil = {
