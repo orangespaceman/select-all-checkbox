@@ -1,9 +1,9 @@
 # Select-all checkbox
 
-##Post
+## Post
 
- - [http://petegoodman.com/labs/select-all-checkbox/](http://petegoodman.com/labs/select-all-checkbox/)
+ - [https://f90.co.uk/labs/select-all-checkbox/](https://f90.co.uk/labs/select-all-checkbox/)
 
 ## Example
 
- - [http://thegingerbloke.github.io/select-all-checkbox](http://thegingerbloke.github.io/select-all-checkbox)
+ - [https://orangespaceman.github.io/select-all-checkbox](https://orangespaceman.github.io/select-all-checkbox)
